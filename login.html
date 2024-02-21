@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css files/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-left">
+            <img src="grapes-5870023_1280.jpg" alt=""  width="820" heigth="1000">
+        </div>
+
+        <div class="login-right">
+
+            <img src="Ungana.png" alt="" height="100" width="500" class="logo"><br><br>
+
+            <form id="myForm" action="login.php" method="POST">
+
+                    <label for="email">email:</label><br>
+                    <input type="text" id="emailLogin" name="emailLogin" class="roundedinput">
+                    <span id="emailloginError" style="color: red;"></span><br><br>
+
+                    <label for="Password">Password:</label><br>
+                    <input type="text" id="passwordLogin" name="passwordLogin" class="roundedinput">
+                    <span id="passwordloginError" style="color: red;"></span><br><br>
+
+
+                    <button type="submit" class="btnlogin">Login</button>
+                </form>
+
+        </div>
+
+    </div>
+    
+    <script src="js files/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.container {
+    display: flex; /* Enables flexbox */
+}
+
+.login-left{
+    float: left;
+    width: 50%;
+}
+
+.login-rigth{
+    float: left;
+    width: 50%;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+.roundedInput {
+    border-radius: 10px; 
+    padding: 5px 10px;   
+    border: 1px solid #ccc; 
+    width: 350px;
+}
+
+.btnlogin{
+    border-radius: 10px; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    background-color: #28a745;
+    width: 350px;
+    color: #FFFFFF;
+    font-size: 25px;
+    
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #28a745;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .registration{
+    display: grid;
+    place-items: center;
+    height: 700px; 
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("grapes-5870023_1280.jpg");
+    background-size: fit; 
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+
+  .bg-farmer{
+    background-color:white;
+  }
+
+  
