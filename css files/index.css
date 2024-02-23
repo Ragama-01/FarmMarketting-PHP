@@ -153,10 +153,11 @@ nav ul li {
 }
 
 .container {
-    margin-top: 15%;
-    margin-bottom: 15%;
-    margin-left: 15%;
-    overflow: hidden;
+    /* max-width: 1000px;
+    margin: 0 auto; */
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .column {
@@ -346,3 +347,136 @@ input[type="text"] {
     width:25%;
     height: 50%;
 }
+
+.MarketCategories{
+
+    border-radius: 25px;
+    height: 70%;
+    width: 90%;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 5%;
+
+   
+}
+
+
+.productinfo{
+    width:30%;
+    height: 800PX;
+    margin-top: 5%;
+    float: left;
+    padding-right: 5%;
+}
+
+.productinfo3{
+    width:30%;
+    height: 800PX;
+    margin-top: 5%;
+    float: left;
+    padding-right: 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #2ae804;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2ae804;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center; /* Horizontally center components */
+    align-items: center; /* Vertically center components */
+    margin-bottom: 50px;
+    color: #2ae804;
+    font-size: 50px;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .map-container,
+  .social-links,
+  .feedback-form {
+    flex: 1 0 33.33%;
+    padding: 15px;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-links ul li a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-links ul li a:hover {
+    color: #007bff;
+  }
+  
+  
